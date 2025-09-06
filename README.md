@@ -1,59 +1,78 @@
-# Welcome to your Lovable project
+# ✨ Mini Portfolio Generator
 
-## Project info
+This is a **Mini Portfolio Generator** that allows you to create and host beautiful, responsive portfolios instantly. The application features a clean, two-panel interface: an intuitive form on the left for entering your details and a live preview on the right to see your portfolio as you build it.
 
-**URL**: 
+https://mini-portfolio-generator-d8r3vrj36.vercel.app
 
-**Use your preferred IDE**
+## 🚀 Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* **Live Preview**: See your portfolio update in real-time as you fill out the forms.
+* **Downloadable Portfolio**: Generate and download your complete portfolio as a ZIP file, ready for hosting.
+* **Instant Portfolios**: Quickly create a personal portfolio by filling in a simple form.
+* **Sample Data**: Instantly populate the form with sample information to see a working example.
+* **Customizable**: The generated portfolio is built with modern components, ready for further customization.
+* **Theme Toggle**: Switch between light and dark modes for a comfortable user experience.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 💻 Technologies Used
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+This project is built using modern web technologies:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+* **Vite**: A fast front-end build tool.
+* **TypeScript**: A typed superset of JavaScript.
+* **React**: A popular JavaScript library for building user interfaces.
+* **shadcn-ui**: A collection of reusable UI components.
+* **Tailwind CSS**: A utility-first CSS framework for rapid UI development.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📦 Getting Started
 
-**Edit a file directly in GitHub**
+You can get started by either working locally with your own IDE, editing files directly on GitHub, or using GitHub Codespaces.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Work Locally
 
-**Use GitHub Codespaces**
+1.  **Clone the repository**:
+    ```sh
+    git clone <YOUR_GIT_URL>
+    ```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+2.  **Navigate to the project directory**:
+    ```sh
+    cd <YOUR_PROJECT_NAME>
+    ```
 
-## What technologies are used for this project?
+3.  **Install dependencies**:
+    ```sh
+    npm install
+    ```
 
-This project is built with:
+4.  **Start the development server**:
+    ```sh
+    npm run dev
+    ```
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+### Edit Directly on GitHub
 
+1.  Navigate to the file you want to edit.
+2.  Click the pencil icon to open the editor.
+3.  Make your changes and commit them.
 
+### Use GitHub Codespaces
 
-Yes, you can!
+1.  On your repository's main page, click the green **Code** button.
+2.  Go to the **Codespaces** tab and click **New codespace**.
+3.  Edit your files directly in the browser.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🔗 Custom Domains
+
+You can connect a custom domain to your portfolio. Go to **Project > Settings > Domains** and click **Connect Domain**.
+
+---
+
+## 🛡 License
+
+This project is open-source and available under the [MIT License](https://opensource.org/licenses/MIT).
